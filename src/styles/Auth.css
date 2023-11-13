@@ -1,0 +1,45 @@
+/* Additional CSS for button styling */
+.auth {
+    text-align: center;
+  }
+  
+  .auth button {
+    /* Customize the button using CSS */
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #adc3f1; /* Custom background color */
+    color: white; /* Custom text color */
+  }
+  
+  /* CSS for button hover state */
+  .auth button:hover {
+    background-color: #2e4e8e; /* Custom background color on hover */
+  }
+  /* Additional CSS for button styling */
+.sign-out {
+    text-align: center;
+    margin-top: 20px; /* Add margin for spacing */
+  }
+  
+  .sign-out button {
+    /* Customize the button using CSS */
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e77782; /* Custom background color for the danger button */
+    color: white; /* Custom text color */
+    position: absolute;
+  }
+  
+  /* CSS for button hover state */
+  .sign-out button:hover {
+    background-color: #c82333; /* Custom background color on hover */
+  }
+  
